@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(18, 2, 32);
+}
+h1,h2{
+    text-align: center;
+    color: rgb(126, 108, 95);
+}
+ul{
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+li{
+    list-style-type: none;
+    /* border: 1px solid green; */
+    width: 400px;
+    height: 100px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+/* p{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+} */
